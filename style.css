@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500&display=swap');
+
+/* h weight: 500 / p weight: 300*/
+:root {
+    --main-font: 'M PLUS Rounded 1c', sans-serif;
+    --header-bg: #db554d;
+    --faded-bg:#df645f;
+    --task-bg:#c94b46;
+    --font:#7a6062;
+    --h4: #612e31;
+
+}
