@@ -10,3 +10,39 @@
     --h4: #612e31;
 
 }
+body{
+    margin:0;
+}
+header{
+    background-color: var(--header-bg);
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+/* upper navigation*/
+.main-nav{
+    display:flex;
+    font-family: var(--main-font);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap:4rem;
+    flex-wrap: wrap;
+}
+.main-nav a{
+    font-weight: 300;
+    color: white;
+    background-color: var(--faded-bg);
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+
+}
+main.nav li{
+    justify-content: space-evenly;
+}
+/* timer*/
+/**/
+/**/
