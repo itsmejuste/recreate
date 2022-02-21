@@ -34,15 +34,62 @@ a{
 }
 .main-nav a{
     font-weight: 300;
+    font-size: 1rem;
     color: white;
     background-color: var(--faded-bg);
     padding: 0.4rem;
     border-radius: 0.4rem;
 
 }
-main.nav li{
-    justify-content: space-evenly;
+.main-nav a:hover{
+    color:var(--h4);
 }
-/* timer*/
-/**/
+/* timer navigation */
+.timer-nav{
+    margin: 4rem;
+    padding: 1rem;
+    background-color: var(--faded-bg);
+    border-radius: 0.3rem;
+    
+}
+.timer-nav li{
+    display:inline-flex;
+    justify-items: center;
+    align-items: center;
+}
+.timer-nav a{
+    font-weight: 500;
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+    color: white;
+    padding: 0.3rem;
+}
+.timer-nav a:hover{
+    background-color:var(--task-bg);
+    border-radius: 0.4rem;
+}
+/* timer itself*/
+.timer{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    font-family: var(--main-font);
+    color: white;
+    
+}
+.timer h1{
+    font-size: 6rem;
+}
+.timer a{
+    color: var(--header-bg);
+    background-color: white;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.4rem;
+    box-shadow: rgb(194, 178, 178) 0.2rem 0.2rem;
+}
+.timer a:hover{
+    background-color:rgb(226, 193, 193);
+}
 /**/
