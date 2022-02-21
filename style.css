@@ -110,7 +110,38 @@ a{
     margin-bottom: 0;
     font-size: 0.8rem;
 }
-/**/
+/*tasks*/
+.tasks{
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 4rem;
+    
+}
+.milk{
+    background-color: white;
+    color: gray;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-left: solid 4px rgb(39, 9, 9);
+}
+.code{
+    background-color: white;
+    color:rgb(163, 156, 156);
+    border-radius: 0.2rem;
+    padding:1rem;
+    margin:1rem;
+}
+.add{
+    background-color:var(--task-bg) ;
+    color: whitesmoke;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border:white dashed 0.5px; 
+    justify-content: center;
+}
 /**/
 /**/
 /**/
