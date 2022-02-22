@@ -52,10 +52,28 @@ a{
     border-radius: 0.3rem;
     
 }
+/*responsiveness*/
+@media screen and (max-width:520px) {
+    .timer-nav ul{
+        flex-wrap: wrap;
+        gap:0.5rem
+    }
+    .timer{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .timer-nav {
+      margin-left: 20rem;
+      margin-right:20rem;
+    }
+    
+    }
+
 .timer-nav ul{
-    display:inline-flex;
-    justify-items: center;
-    align-items: center;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .timer-nav a{
     font-weight: 500;
@@ -79,6 +97,7 @@ a{
 }
 .timer h1{
     font-size: 6rem;
+    text-align: center;
 }
 .timer a{
     color: var(--header-bg);
@@ -116,22 +135,48 @@ a{
     font-size: 1.1rem;
     font-weight: 500;
     margin: 4rem;
+    padding-bottom: 3rem;
     
 }
+.tasks h3{
+    border-bottom: white 0.05rem solid;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
 .milk{
+    display: flex;
+    justify-content: space-between;
     background-color: white;
-    color: gray;
+    color:black;
     border-radius: 0.2rem;
     padding: 1rem;
     margin: 1rem;
     border-left: solid 4px rgb(39, 9, 9);
 }
+.tasks a{
+    color: white;
+}
 .code{
+    display: flex;
+    justify-content: space-between;
     background-color: white;
     color:rgb(163, 156, 156);
     border-radius: 0.2rem;
     padding:1rem;
     margin:1rem;
+    text-decoration:line-through;
+}
+.milk a,
+.code a{
+    color: gray;
+    text-align: left;
+}
+.tasks a:hover,
+.milk a:hover,
+.code a:hover,
+.add a:hover{
+    color: black;
 }
 .add{
     background-color:var(--task-bg) ;
@@ -140,7 +185,21 @@ a{
     padding: 1rem;
     margin: 1rem;
     border:white dashed 0.5px; 
-    justify-content: center;
+    text-align: center;
+}
+.add a{
+    color: white;
+    
+}
+.score{
+   
+    background-color: var(--faded-bg);
+    padding: 1rem;
+    margin: 1rem;
+    border-top: white 0.05rem solid;
+    color: white;
+    font-weight: 300;
+    text-align: center;
 }
 /**/
 /**/
