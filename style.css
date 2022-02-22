@@ -257,4 +257,42 @@ main li{
 .para4{
     line-height: 1.6;
 }
-/**/
+/*footer*/
+footer{
+    border-top: 1px solid rgb(194, 186, 186);
+}
+.bottom ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+
+    
+
+}
+.bottom a{
+    font-family: var(--main-font);
+    color: var(--font);
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+footer a:hover{
+    color: var(--header-bg);
+}
+.some{
+    font-family: var(--main-font);
+    color: var(--font);
+    font-weight: 300;
+    text-align: center;
+    line-height: 0.3;
+}
+.some a{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color:var(--header-bg)
+}
+.some p{
+    font-size: 0.8rem;
+    color: rgb(182, 174, 174);
+}
