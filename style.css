@@ -16,10 +16,10 @@ body{
 header{
     background-color: var(--header-bg);
 }
-li{
+header li{
     display: inline;
 }
-a{
+ a{
     text-decoration: none;
 }
 /* upper navigation*/
@@ -67,7 +67,19 @@ a{
       margin-left: 20rem;
       margin-right:20rem;
     }
-    
+    .tasks{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    .milk,
+    .code,
+    .add,
+    .score{
+        grid-column: 2/3;
+    }
+    .todo{
+        grid-column: 2/3;
+    }
     }
 
 .timer-nav ul{
@@ -201,6 +213,48 @@ a{
     font-weight: 300;
     text-align: center;
 }
-/**/
-/**/
+/* main content alignment/resposiveness*/
+main{
+    display:flex;
+    flex-direction: column;
+    margin:4rem;
+}
+@media only screen and (min-width: 900px){
+    main{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+    }
+    .intro,
+    .para1,
+    .para2,
+    .para3,
+    .para4{
+        grid-column: 2/3;
+    }
+}
+/*main content paragraphs*/
+main h4{
+    font-family: var(--main-font);
+    font-weight: 500;
+    color: var(--font);
+    font-size: 1.2rem;
+}
+main p,
+main li{
+    font-family: var(--main-font);
+    font-weight: 300;
+}
+.intro{
+    font-family: var(--main-font);
+    font-weight: 500;
+    color: var(--font);
+    font-size: 1.4rem;
+}
+/*can't find how to put back the list style to the ol and ul :(
+    /found it: in line 19 had to specify header A's.
+    but how to change color of the bullets- i dont know */
+.para3,
+.para4{
+    line-height: 1.6;
+}
 /**/
